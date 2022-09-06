@@ -1,0 +1,141 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+#navbar{
+    display: flex;
+    background-color: rgb(133, 26, 133);
+    width: 100vw;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar #logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   width: 10%;
+    /* border: 2px solid black; */
+}
+
+#navbar #logo img{
+    width: 40px;
+}
+
+#navbar #logo p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navbar ul{
+    display: flex;
+    width: 85%;
+    /* border: 2px solid black; */
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#navbar ul li{
+    margin: 10px 40px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    /* margin: 20px; */
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 3px 8px;
+    background-color: green;
+}
+ 
+/* section1 */
+
+#home{
+    display: flex;
+    background-image:url(/images/bg.jpg);
+    background-position: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: .9;
+}
+
+#home h1{
+    font-size: 45px;
+    color: white;
+}
+
+#home div p{
+    margin: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 5px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* section2 */
+
+.service-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/bg1.jpg);
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    /* padding: 20px; */
+    justify-content: space-evenly;
+}
+
+.service-container .h-primary{
+    font-size: 45px;
+    color: white;
+}
+
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    height: 70%;
+}
+
+#services .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid white; */
+    width: 30%;
+    height: 80%;
+    text-align: center;
+    color: white;
+}
+
+.box img{
+    width: 150px;
+    height: 130px;
+}
+
+.box h2{
+    font-weight: bold;
+}
